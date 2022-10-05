@@ -5,6 +5,9 @@
  */
 package jptv21oopproba;
 
+import myclasses.Author;
+import myclasses.Book;
+
 /**
  *
  * @author pupil
@@ -16,6 +19,10 @@ public class JPTV21OOPProba {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+       Author author1 = new Author();
+       author1.setFirstname("Aleksandr");
+       author1.setLastname("Pushkin");
+       Book book = new Book();
     }
     
 }
